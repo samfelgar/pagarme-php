@@ -14,7 +14,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "5.3.4"
+        "guzzlehttp/guzzle": "5.3.4||^6.0"
     },
     "require-dev": {
         "ext-mbstring": "*",
@@ -32,8 +32,8 @@
             "vendor/bin/phpunit --coverage-html tests/_reports"
         ]
     },
-     "autoload": {
-        "psr-4": {"PagarMe\\Sdk\\": "lib/"}
+    "autoload": {
+        "psr-4": { "PagarMe\\Sdk\\": "lib/" }
     },
     "autoload-dev": {
         "psr-4": {
